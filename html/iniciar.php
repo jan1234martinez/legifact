@@ -1,3 +1,16 @@
+<?php
+
+    session_start();
+
+    if(isset($_SESSION['usuario'])){
+        header("location: perfil.php");
+    };
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,10 +35,10 @@
                 
                 <div class="contenedor-login"><!--Contenedor para iniciar sesión con 
                 una cuenta creada anteriormente-->
-                    <form action="" class="formulario_login">
+                    <form action="../php/login_usuario.php" method="POST" class="formulario_login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Correo Electrónico">
-                        <input type="password" placeholder="Contraseña">
+                        <input type="text" placeholder="Correo Electrónico" name="correo">
+                        <input type="password" placeholder="Contraseña" name="contrasena">
                         <button>Confirmar</button>
                         <button>Cancelar</button>
                     </form>
