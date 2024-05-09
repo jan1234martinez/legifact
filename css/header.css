@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Aleo", serif;
 }
 .header{
     display: flex;
@@ -15,14 +16,5 @@
     position: relative; 
     z-index: 5;
 }
-.titulo{
-    color: rgb(255, 115, 0);
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-}
-.texto_de_ejemplo{
-    font-size:30px;
-    padding-left: 50px;
-}
+
 
