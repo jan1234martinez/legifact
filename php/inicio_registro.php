@@ -19,6 +19,19 @@
                 window.location = "../html";
             </script>
         ';
+        exit();
+    }
+    
+    $verificar_usuario = mysqli_query($conexión, "SELECT * FROM usuarios WHERE usuario = '$usuario'");
+
+    if(mysqli_num_rows($verificar_usuario) > 0){
+        echo '
+            <script>
+                alert("Este usuario ya está registrado, intenta con otro diferente");
+                window.location = "../html";
+            </script>
+        ';
+        exit();
     }
 
     $ejecutar = mysqli_query($conexión, $query); /* Para poder executar el "$query" */
