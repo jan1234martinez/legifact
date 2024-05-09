@@ -7,8 +7,8 @@
     $correo = $_POST['correo'];
     $contrasena = $_POST['contrasena'];
 
-    $query = "INSERT INTO usuarios(nombre_completo, usuario, correo, contrasena) 
-    VALUES('$nombre_completo','$usuario','$correo','$contrasena')";/* Cambiar "nombre_completo" "usuario" etc.. (los incluidos en el parentesis) por el nombre de las columnas*/
+    $query = "INSERT INTO usuarios(nombre_completo, correo, usuario, contrasena) 
+    VALUES('$nombre_completo','$correo','$usuario','$contrasena')";/* Cambiar "nombre_completo" "usuario" etc.. (los incluidos en el parentesis) por el nombre de las columnas*/
 
     $verificar_correo = mysqli_query($conexión, "SELECT * FROM usuarios WHERE correo = '$correo'");
 
