@@ -8,10 +8,10 @@
     $contrasena = $_POST['contrasena'];
 
     // Encriptación de las contraseñas //
-    $contrasena = hash('sha512', $contrasena);
+    $contrasena2 = hash('sha512', $contrasena);
 
     $query = "INSERT INTO usuarios(nombre_completo, correo, usuario, contrasena) 
-    VALUES('$nombre_completo','$correo','$usuario','$contrasena')";/* Cambiar "nombre_completo" "usuario" etc.. (los incluidos en el parentesis) por el nombre de las columnas*/
+    VALUES('$nombre_completo','$correo','$usuario','$contrasena2')";/* Cambiar "nombre_completo" "usuario" etc.. (los incluidos en el parentesis) por el nombre de las columnas*/
 
     $verificar_correo = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo = '$correo'");
 
@@ -19,7 +19,7 @@
         echo '
             <script>
                 alert("Este correo ya está registrado, intenta con otro diferente");
-                window.location = "../html";
+                window.location = "../html/registrar.html";
             </script>
         ';
         exit();
@@ -31,7 +31,7 @@
         echo '
             <script>
                 alert("Este usuario ya está registrado, intenta con otro diferente");
-                window.location = "../html";
+                window.location = "../html/registrar.html";
             </script>
         ';
         exit();
@@ -43,14 +43,14 @@
         echo '
             <script>
                 alert("Usuario almacenado exitosamente");
-                window.location = "../html/iniciar.html";
+                window.location = "../html/iniciar.php";
             </script>
         ';
     }else{
         echo '
             <script>
                 alert("Ha surgido un error, intentelo de nuevo");
-                window.location = "../html/iniciar.html";
+                window.location = "../html/iniciar.php";
             </script>
         ';
     }
