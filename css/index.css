@@ -10,12 +10,12 @@ main{
 }
 .titulo{
     color: rgb(255, 115, 0);
-    font-size: 80px;
+    font-size: 150px;
     display: flex;
     justify-content: center;
     font-family: "Londrina Solid", sans-serif;
     font-style: normal;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .al_contenedor{
     font-size:25px;
