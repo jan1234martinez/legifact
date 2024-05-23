@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inputs{
+    background-color: grey;
+    width:1060px;
+    height:500px;
+
+}
+
+.nombre_comunidad{
+    font-size: larger;
+    width:1000px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.descripcion_comunidad{
+    font-size: larger;
+    width:1000px;
+    height: 120px;
+    margin-top: 15px;
+}
+
+.arrastra_imagen{
+    font-size: larger;
+    width:1000px;
+    height: 100px;
+    margin-top: 15px;
+}
