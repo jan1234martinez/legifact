@@ -1,3 +1,4 @@
+<?php include("header.php"); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,12 +6,7 @@
     </head>
     <body>
     <div class="page-container">
-        <header class="header">
-            <a href="iniciar.html">INICIO</a>
-            <a href="tendencias.html">TENDENCIAS</a>
-            <a href="hilos.html">HILOS</a>
-            <a href="comunidades.html">COMUNIDADEDES</a>
-        </header>
+        
     </div>
 
     <div class="titulo">

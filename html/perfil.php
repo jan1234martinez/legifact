@@ -15,6 +15,7 @@
     }
 
 ?>
+<?php include("header.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,14 +25,6 @@
         <title>Document</title>
     </head>
     <body>
-        <header class="header">
-            <title>Legifact</title>
-			<a href="index.html">INICIO</a>
-            <a href="tendencias.html">TENDENCIAS</a>
-            <a href="hilos.html">HILOS</a>
-            <a href="comunidades.html">COMUNIDADES</a>
-			<img src="../multimedia/img/a">
-			<img src="../multimedia/img/a">
-		</header>
+        
     </body>
 </html>

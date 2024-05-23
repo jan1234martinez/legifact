@@ -1,3 +1,4 @@
+<?php include("header.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,19 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hilos</title>
     <link rel="stylesheet" type="text/css" href="../css/hilos.css">
-    <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../css/footer.css">
 </head>
 <body>
-    <header class="header">
-        <title>Legifact</title>
-        <a href="index.html">INICIO</a>
-        <a href="tendencias.html">TENDENCIAS</a>
-        <a href="hilos.html">HILOS</a>
-        <a href="comunidades.html">COMUNIDADES</a>
-        <img src="../multimedia/img/a">
-        <a href="perfil.php" class="perfil_user"><img src="../multimedia/img/perfil.png"></a>
-    </header>
     <main class="main">
         <h1 class="titulo">Hilos</h1>
         <div class="buscador_boton">

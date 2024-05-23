@@ -1,21 +1,11 @@
+<?php include("header.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
-	<link rel="stylesheet" type="text/css" href="../css/header.css">
-	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 </head>
 <body>
 	<div class="page-container">
-		<header class="header">
-            <title>Legifact</title>
-			<a href="index.html">INICIO</a>
-            <a href="tendencias.html">TENDENCIAS</a>
-            <a href="hilos.html">HILOS</a>
-            <a href="comunidades.html">COMUNIDADES</a>
-			<img src="../multimedia/img/a">
-			<a href="perfil.php" class="perfil_user"><img src="../multimedia/img/perfil.png"></a>
-		</header>
 		<main class="main">
 			<div>
 				<h1 class="titulo">LEGIFACT</h1>
