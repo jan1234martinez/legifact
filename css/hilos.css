@@ -16,7 +16,9 @@
     margin-bottom: 50px;
 }
 .buscador_boton{
-    
+    display: flex;
+    height: 130px;
+    justify-content: center;
 }
 .nuevo_hilo{
     color: black;
@@ -28,4 +30,27 @@
     width: 460px;
     display: flex;
     justify-content: right;
+}
+.buscador{
+    height: 50px;
+    margin-top: 50px;
+    width: 700px;
+    border-radius: 90px;
+}
+.hilos{
+    display: flex;
+
+}
+p{
+    font-size:xx-large;
+    margin-top: 60px;
+}
+.likes{
+    padding-left: 40px;
+}
+.me_gusta{
+    width: 120px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
