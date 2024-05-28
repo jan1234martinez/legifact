@@ -41,7 +41,6 @@
                         <input type="text" placeholder="Correo Electrónico" name="correo">
                         <input type="password" placeholder="Contraseña" name="contrasena">
                         <button>Confirmar</button>
-                        <button>Cancelar</button>
                     </form>
                 </div>
 
