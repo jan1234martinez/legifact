@@ -24,7 +24,7 @@
 			</div>
 		</main>
 		<footer>
-			<a href="hilos.html" class="hilos">HILOS</a>
+			<a href="hilos.php" class="hilos">HILOS</a>
 		</footer>
 	</div>
 </body>

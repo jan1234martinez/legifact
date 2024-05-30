@@ -11,9 +11,11 @@
     $contrasena2 = hash('sha512', $contrasena);
 
     $validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE correo='$correo' and contrasena='$contrasena2'");
+    $fila=mysqli_fetch_array($validar_login);
+    $usuario = $fila[3];
 
     if(mysqli_num_rows($validar_login) > 0){
-        $_SESSION['usuario'] = $correo;
+        $_SESSION['usuario'] = $usuario;
         header(("location: ../html/perfil.php"));
         exit;
     }
