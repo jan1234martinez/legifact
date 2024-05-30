@@ -15,7 +15,7 @@
             para que lleve a la zona de inicio de sesión-->
                 <h3>¿ Ya tienes una cuenta?</h3>
                 <p> Inicia sesión para acceder a nuestra página</p>
-                <button id="boton_iniciar_sesion">Iniciar Sesión</button>
+                <a href="iniciar.php"> Iniciar Sesión </a>
             </div> 
 
             <div class="formulario_registro"> <!--Donde los usuarios se registraran en la 

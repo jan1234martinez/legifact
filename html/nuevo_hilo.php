@@ -27,7 +27,7 @@
         <div class="todo">
             <h1 class="titulo"> Nuevo Hilo </h1>
             <div class="formulario">
-                <form action="../php/publicar_hilo.php" method="$_POST">
+                <form action="../php/publicar_hilo.php" method="POST">
                     <div>
                         <label for="" > Título: </label> <br>
                         <input type="text" placeholder="Escribe el título de tu hilo aquí" name="titulo" required class="contenido-formulario">
@@ -36,7 +36,7 @@
                         <label for=""> Contenido: </label> <br>
                         <textarea type="text" placeholder="Escribe el contenido de tu hilo aquí" name="contenido" rows="10" class="contenido-formulario"></textarea>
                     </div>           
-                    <button class="publicar"> PUBLICAR </button>
+                    <button class="publicar" type="submit"> PUBLICAR </button>
                 </form>
             </div>
         </div>

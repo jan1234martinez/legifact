@@ -5,62 +5,43 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
 }
+
 .titulo{
     color: rgb(255, 115, 0);
     font-size: 150px;
-    display: flex;
-    justify-content: center;
     font-family: "Londrina Solid", sans-serif;
     font-style: normal;
     margin-bottom: 50px;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .buscador_boton{
-    display: flex;
-    height: 130px;
-    justify-content: center;
+    flex-direction: row;
 }
-.nuevo_hilo{
-    color: black;
-    background-color: rgb(255, 115, 0);
-    font-size: 40px;
-    margin: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    width: 390px;
-    height: 50px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: right;
-}
-.buscador{
-    height: 50px;
-    margin-top: 50px;
-    width: 700px;
-    border-radius: 90px;
-}
+
 .hilos{
-    display: flex;
-    font-family: "Londrina Solid", sans-serif;
-    font-style: normal;
+    max-width: 1600px;
 }
-p{
-    font-size:xx-large;
-    margin-top: 60px;
+
+.conjunto{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 900px;
+    padding: 10px;
 }
-.likes{
-    padding-left: 40px;
+
+.usuario{
+    font-size: 20px;
+    color: #767676
 }
-.me_gusta{
-    width: 120px;
-    height: 120px;
-    padding-top: 20px;
-    padding-left: 30px;
-}
-.lupa{
-    width: 40px;
-    height: 40px;
-    margin-top: 55px;
-    margin-right: 10px;
-}
+
+.titulo_hilo{
+    font-size: 30px;
+    color: black;
