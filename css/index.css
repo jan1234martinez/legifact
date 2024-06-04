@@ -27,17 +27,18 @@ main{
 }
 .texto_ejemplo{
     flex-direction: column;
+    margin-right: 20px;
 }
 .hilos{
     color: black;
     background-color: rgb(255, 115, 0);
     font-size: 50px;
     margin: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    
+    padding: 10px 70px;   
+    border-radius: 10px;
 }
-.perfil_user{
-    height: 1px;
-    
+
+.gif_portada{
+    border: 5px solid orange;
+    border-radius: 10px;
 }

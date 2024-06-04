@@ -12,8 +12,8 @@
             <h1 class="titulo"> HILOS </h1>
             <div class="buscador_boton">
                 <form action="../php/lista_hilos_buscador.php" method="POST">
-                    <input type="image" name="enviar" src="../multimedia/img/emoji.png">
-                    <input type="text" name="busqueda">
+                    <input class="lupa" type="image" name="enviar" src="../multimedia/img/lupa.png">
+                    <input class="buscador" type="text" name="busqueda" placeholder="Buscar hilo">
                 </form>
                 <a href="nuevo_hilo.php"> NUEVO HILO </a>
             </div>

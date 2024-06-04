@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +8,31 @@
     text-decoration: none;
     font-family: sans-serif;
 }
-body{
-    /*background-image: url(../multimedia/img/a);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; Descomentar este código y borrar este mensaje 
-    si se pondrá imagen a la pagina*/
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    color: rgb(255, 115, 0);
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.formulario_login{
+    align-items: center;
+}
+
+input{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 700px;
+    padding: 10px;
 }

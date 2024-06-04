@@ -22,7 +22,30 @@
 }
 
 .buscador_boton{
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    width: 1500px;
+    align-items: center;
+}
+
+.buscador_boton > a{
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+}
+
+.buscador{
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.lupa{
+    width: 50px;
 }
 
 .hilos{
@@ -45,3 +68,4 @@
 .titulo_hilo{
     font-size: 30px;
     color: black;
+}
