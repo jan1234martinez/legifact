@@ -23,7 +23,7 @@
         echo '
             <script>
                 alert("Este usuario no existe, verifica los datos introducidos");
-                window.location = "../html/iniciar.html";
+                window.location = "../html/iniciar.php";
             </script>
         ';
         exit;

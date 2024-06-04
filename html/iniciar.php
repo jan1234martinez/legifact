@@ -37,7 +37,7 @@
                 a la zona de registro-->
                 <h3>¿No tienes una cuenta?</h3>
                 <p> Regístrate para acceder a nuestra página</p>
-                <button id="boton_registrar">Registrarse</button>
+                <a href="registrar.php"> Registrarse </a>
             </div> 
         </div>
     </div>
