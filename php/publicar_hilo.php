@@ -13,7 +13,7 @@
     //echo($query);
     $ejecutar = mysqli_query($conexion, $query);
     echo($ejecutar);
-    header("location: ../html/hilo_completo.php");
+    header("location: ../html/hilos.php");
 
     
 ?>
